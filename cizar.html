@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O código de César</title>
+    <link href="./cesar.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <input type="text" id="linha">
+    <select id="selecionar">
+            <option value="escolha" disabled selected>Escolha</option>
+            <option value="cifradecesar">Cifra de César</option>
+            <option value="base64">Base 64</option>
+        </select>
+
+    <label for="">Opção</label>
+    <input type="radio" name="codificacao" id="encriptar">
+    <label for="codificar">Codificar</label>
+    <input type="radio" name="codificacao" id="desencriptar">
+    <label for="decodificar">Decodificar</label>
+    <br>
+    <br>
+    <h3>
+        <p>Escolha um número</p>
+    </h3>
+
+    <input type="number" id="numero">
+    <button id="enviar" onclick="codifica()">Enviar</button>
+    <div id="resultado">Resultado</div>
+
+    <script src="./cizar.js"></script>
+
+</body>
+
+</html>
